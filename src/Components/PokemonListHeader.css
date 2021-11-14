@@ -1,0 +1,31 @@
+.pokemon-list-header {
+  padding: 0.75rem;
+
+  display: flex;
+  justify-content: space-between;
+  gap: 0.5rem;
+
+  background-color: #da9a99;
+}
+
+input,
+select {
+  width: 100%;
+  padding: 0.5rem 0;
+
+  border: none;
+  border-radius: 0.5rem;
+
+  font-size: 1rem;
+  text-indent: 0.5rem;
+
+  background-color: #fff;
+}
+
+.pokemon-list-header .pokemon-name {
+  width: 66%;
+}
+
+.pokemon-list-header .pokemon-type {
+  width: 33%;
+}

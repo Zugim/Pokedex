@@ -1,0 +1,42 @@
+.pokemon-list {
+  width: 100%;
+  min-height: 80vh;
+  max-height: 80vh;
+
+  background-color: #dcdcdc;
+
+  overflow-x: auto;
+  overflow-y: scroll;
+}
+
+.pokemon-list h2 {
+  text-align: center;
+  padding: 1rem 0;
+}
+
+.pokemon-list-item {
+  padding: 0.75rem;
+
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  cursor: pointer;
+}
+
+.pokemon-list-item h3 {
+  float: left;
+  text-transform: capitalize;
+}
+
+.pokemon-list-item:nth-of-type(odd) {
+  background-color: #d7d7d7;
+}
+
+.pokemon-list-item:nth-of-type(even) {
+  background-color: #d3d3d3;
+}
+
+.pokemon-list-item.focused-pokemon {
+  background-color: #dab0af;
+}
