@@ -5,7 +5,7 @@ export default function PokemonListHeader({ handleSearch, handleSelection }) {
     <form className="pokemon-list-header">
       <label className="pokemon-name">
         <input
-          type="search"
+          type="input"
           placeholder="Pokemon Name"
           onChange={handleSearch}
         />
