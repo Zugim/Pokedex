@@ -13,12 +13,11 @@ export default function PokemonListContainer({
   const [selectedType, setSelectedType] = useState('');
 
   const handleSearch = (e) => {
-    console.log(e.target.value);
+    e.preventDefault();
     setSearchedValue(e.target.value);
   };
 
   const handleSelection = (e) => {
-    console.log(e.target.value);
     setSelectedType(e.target.value);
   };
 
